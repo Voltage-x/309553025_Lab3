@@ -16,8 +16,8 @@ class lab3Test {
         return Stream.of(
                 Arguments.of(new int[]{1, 5, 4, 7}, new int[]{1, 4, 5, 7}),
                 Arguments.of(new int[]{1, -5, 4, -7}, new int[]{-7, -5, 1, 4}),
-                Arguments.of(new int[]{5, 8, 4, 2}, new int[]{2, 4, 5, 8}),
-                Arguments.of(new int[]{-3, 0, -9, 65}, new int[]{-9, -3, 0, 65})
+                Arguments.of(new int[]{5, 8, 4, 2}, new int[]{2, 4, 6, 8}),
+                Arguments.of(new int[]{-3, 0, -9, 65}, new int[]{-9, -3, 1, 65})
         );
     }
 
